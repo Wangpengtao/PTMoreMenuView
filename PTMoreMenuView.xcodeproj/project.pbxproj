@@ -13,6 +13,7 @@
 		1B0DC3B92199673100730BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0DC3B82199673100730BB9 /* Assets.xcassets */; };
 		1B0DC3BC2199673100730BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0DC3BA2199673100730BB9 /* LaunchScreen.storyboard */; };
 		1B0DC3BF2199673100730BB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DC3BE2199673100730BB9 /* main.m */; };
+		1B0DC3C72199677400730BB9 /* PTMoreMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DC3C62199677400730BB9 /* PTMoreMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1B0DC3BB2199673100730BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B0DC3BD2199673100730BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B0DC3BE2199673100730BB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B0DC3C52199677300730BB9 /* PTMoreMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMoreMenuView.h; sourceTree = "<group>"; };
+		1B0DC3C62199677400730BB9 /* PTMoreMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMoreMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1B0DC3B02199672F00730BB9 /* AppDelegate.m */,
 				1B0DC3B22199672F00730BB9 /* ViewController.h */,
 				1B0DC3B32199672F00730BB9 /* ViewController.m */,
+				1B0DC3C52199677300730BB9 /* PTMoreMenuView.h */,
+				1B0DC3C62199677400730BB9 /* PTMoreMenuView.m */,
 				1B0DC3B52199673000730BB9 /* Main.storyboard */,
 				1B0DC3B82199673100730BB9 /* Assets.xcassets */,
 				1B0DC3BA2199673100730BB9 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B0DC3B42199672F00730BB9 /* ViewController.m in Sources */,
+				1B0DC3C72199677400730BB9 /* PTMoreMenuView.m in Sources */,
 				1B0DC3BF2199673100730BB9 /* main.m in Sources */,
 				1B0DC3B12199672F00730BB9 /* AppDelegate.m in Sources */,
 			);
